@@ -1,14 +1,53 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<ul>
-  <li>
-    <a routerLink="">Home</a>
-  </li>
-  <li>
-    <a routerLink="contact/49">Contacto</a>
-  </li>
-  <li>
-    <a routerLink ="about-us/48">Acerca de</a>
-  </li>
-</ul>
+<html lang="es">
+
+<body>
+
+  <header id="main-header">
+
+    <a id="logo-header" href="#">
+      <span class="site-name">Science4Kids</span>
+    </a>
+    <!-- / #logo-header -->
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="">Home</a>
+        </li>
+        <li>
+          <a routerLink="about-us/48">Acerca de</a>
+        </li>
+        <li>
+          <a routerLink="contact/49">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <!-- / #main-header -->
+
+  <section id="main-content">
+    <header>
+      <h1>Aprende Jugando</h1>
+    </header>
+
+    <div>
+      <img src="/assets/images/science/4.png" style="width:300px;height:168px;">
+      <img src="/assets/images/science/2.jpg" style="width:300px;height:168px;">
+      <img src="/assets/images/science/3.jpg" style="width:300px;height:168px;">
+      <img src="/assets/images/science/5.jpg" style="width:300px;height:168px;">
+
+    </div>
+
+  </section>
+  <!-- / #main-content -->
+  <footer id="main-footer">
+    <p>&copy; 2018
+      <a href="http://Science4Kids.com">Science4Kids.com</a>
+    </p>
+  </footer>
+  <!-- / #main-footer -->
+</body>
+
+</html>
 
 <router-outlet></router-outlet>
