@@ -21,7 +21,11 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.4",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -44,5 +48,16 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyersMC/Science4Kids.git"
+  },
+  "author": "Guerrero",
+  "bugs": {
+    "url": "https://github.com/RoyersMC/Science4Kids/issues"
+  },
+  "homepage": "https://github.com/RoyersMC/Science4Kids#readme"
 }
