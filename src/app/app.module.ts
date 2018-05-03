@@ -10,6 +10,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './master/header/header.component';
 import { FooterComponent } from './master/footer/footer.component';
+import { ModuloOceanoComponent } from './modulo-oceano/modulo-oceano.component';
+import { ModuloSelvaComponent } from './modulo-selva/modulo-selva.component';
+import { ModuloCuerpoHumanoComponent } from './modulo-cuerpo-humano/modulo-cuerpo-humano.component';
+import { ModuloSistemaSolarComponent } from './modulo-sistema-solar/modulo-sistema-solar.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { FooterComponent } from './master/footer/footer.component';
     AboutUsComponent,
     ContactComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ModuloOceanoComponent,
+    ModuloSelvaComponent,
+    ModuloCuerpoHumanoComponent,
+    ModuloSistemaSolarComponent
   ],
   imports: [
     BrowserModule,
