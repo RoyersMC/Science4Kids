@@ -1,22 +1,29 @@
-<div class="container">
-  <h1>Contactenos</h1>
-  <form>
-    <div class="form-group">
-      <label for="name">Nombre</label>
-      <input type="text" class="form-control" id="name" required>
+<h1>Contáctenos</h1>
+
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="first_name" type="text" class="validate" required>
+        <label for="first_name">Nombre</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate" required>
+        <label for="last_name">Apellido</label>
+      </div>
     </div>
-
-    <div class="form-group">
-      <label for="alterEgo">Correo Electronico</label>
-      <input type="text" class="form-control" id="Email" required>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate" required>
+        <label for="email">Correo Electrónico</label>
+      </div>
     </div>
-
-    <div class="form-group">
-      <label for="alterEgo">Comentarios</label>
-      <input type="text" class="form-control" id="Comentarios" required>
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="msj" class="materialize-textarea validate" required></textarea>
+        <label for="msj">Mensaje</label>
+      </div>     
     </div>
-
-    <button type="submit" class="btn btn-success">Enviar</button>
-
+    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar</button>
   </form>
 </div>

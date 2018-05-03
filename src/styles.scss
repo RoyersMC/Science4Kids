@@ -1,50 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
 
-.nav-extended {
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /*background-color: #f8fff4;*/
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    background-color: #f8fff4;
+    padding:3px !important;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#foot { 
+    height: 10px; 
+    color: #7cb556;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #90bc73; 
+}
+
+.btn{
+    background: hsl(96, 39%, 52%);
+}
+
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #7cb556 !important;
+}
+
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #7cb556 !important;
+    box-shadow: 0 1px 0 0 #7cb556 !important;
+}
+
+/*.nav-extended {
 	background-image: url("/assets/images/header.png");
     background-size: 800px 200px;
+    background-color: #7cb556;
+
 }
 
 .brand-logo {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 10px;
-    width: 175px; 
-    height: 175px;
-    opacity: 0.8;
-}
+    width: 170px; 
+    height: 170px;
+    opacity: 0.85;
+}*/
 
 .brand-logo:hover {
     opacity: 1.0;
 }
 
 nav ul a {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #f8fff4;
 }
-  
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+
+nav ul a:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #90cb73;
     background-color: #f8fff4;
 }
 
-main {
-    flex: 1 0 auto;
+/* Otro logo */
+
+.nav-extended {
+    background-image: url("/assets/images/header.png");
+    background-size: 800px 200px;
+    background-color: #7cb556;
 }
 
-.container {
-    width: 100%;
+.brand-logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.75;
 }
-
-
-#footer {
-    background-color: #f8fff4;
-}
-
-#footer {
-  padding:5px !important;
-}
-
-#tamanoFooter { height: 50px; }
