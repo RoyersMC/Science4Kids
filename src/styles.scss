@@ -19,10 +19,13 @@ body {
     opacity: 0.8;
 }
 
-#foot { 
-    height: 10px; 
+#foot {    
     color: #7cb556;
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px; 
 }
 
 .btn:hover {
@@ -91,5 +94,4 @@ nav ul a:hover {
 #menu{
     width: 120;
     height: 120px;
-    img { margin-right:30px; }
 }
