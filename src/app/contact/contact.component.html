@@ -1,22 +1,31 @@
 <div class="container">
-  <h1>Contactenos</h1>
-  <form>
-    <div class="form-group">
-      <label for="name">Nombre</label>
-      <input type="text" class="form-control" id="name" required>
-    </div>
 
-    <div class="form-group">
-      <label for="alterEgo">Correo Electronico</label>
-      <input type="text" class="form-control" id="Email" required>
-    </div>
-
-    <div class="form-group">
-      <label for="alterEgo">Comentarios</label>
-      <input type="text" class="form-control" id="Comentarios" required>
-    </div>
-
-    <button type="submit" class="btn btn-success">Enviar</button>
-
-  </form>
+  <div class="contact">
+    <h3>Email Us</h3>
+    <form method="POST" id="contact-form" action="https://formspree.io/Science4kidsSupp@gmail.com">
+      <p>
+        <label>Name</label>
+        <input type="text" name="name" id="inputName">
+      </p>
+      <p>
+        <label>Company</label>
+        <input type="text" name="company"  id="inputCompany" >
+      </p>
+      <p>
+        <label>Email Address</label>
+        <input type="email" name="email" id="inputEmail">
+      </p>
+      <p>
+        <label>Phone Number</label>
+        <input type="text" name="phone" id="inputPhone">
+      </p>
+      <p class="full">
+        <label>Message</label>
+        <textarea name="message" rows="5" id="inputMessage"></textarea>
+      </p>
+      <p class="full">
+        <button type="submit" >Submit</button>
+      </p>
+    </form>
+  </div>
 </div>
