@@ -10,6 +10,7 @@ export class ModuloSistemaSolarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
