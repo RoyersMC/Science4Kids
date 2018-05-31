@@ -1,0 +1,25 @@
+var fct1 = new Fact({
+  IDFACT:'ID01',
+  FactName:'Tortuga1',
+  Animal:'tortuga',
+  Facts:'Algunas tortugas pueden llegar a vivir mas de 100 años'
+});
+
+fct1.save(function(err) {
+  if (err) throw err;
+
+  console.log('Fact saved successfully!');
+});
+
+
+
+
+
+
+mongoose.connect('mongodb://localhost/Multimedios');
+
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log('conexion a db exitosa');
+});
